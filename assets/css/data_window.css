@@ -1,0 +1,66 @@
+.elementor_data_window_body_wrapper {
+  flex: 1;
+  order: 10;
+}
+
+.elementor_data_window_button_wrapper {
+  order: 100;
+}
+.elementor_data_window_button_wrapper .button-wrapper {
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.elementor_data_window_button_wrapper .button-wrapper > button {
+  pointer-events: auto;
+  text-decoration: none;
+}
+.elementor_data_window_button_wrapper .button-wrapper > button span {
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+}
+.elementor_data_window_button_wrapper .button-wrapper[data-position=top], .elementor_data_window_button_wrapper .button-wrapper[data-position=bottom] {
+  right: 0;
+  left: 0;
+  column-gap: 5px;
+}
+.elementor_data_window_button_wrapper .button-wrapper[data-position=right], .elementor_data_window_button_wrapper .button-wrapper[data-position=left] {
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.elementor_data_window_button_wrapper .button-wrapper[data-position=right] {
+  right: 0;
+}
+.elementor_data_window_button_wrapper .button-wrapper[data-position=left] {
+  left: 0;
+}
+
+.elementor-widget-miqid_elementor_widget_data_window {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  order: 10;
+}
+.elementor-widget-miqid_elementor_widget_data_window .elementor-widget-container {
+  height: 100%;
+  padding: 15px;
+}
+
+.elementor-widget-wrap .elementor-widget-miqid_elementor_widget_data_window * {
+  display: none;
+}
+
+.elementor-editor-active .elementor-widget-miqid_elementor_widget_data_window {
+  width: auto;
+  height: auto;
+}
+.elementor-editor-active .elementor-widget-miqid_elementor_widget_data_window * {
+  display: inherit;
+}
+
+/*# sourceMappingURL=data_window.css.map */

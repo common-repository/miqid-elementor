@@ -1,0 +1,19 @@
+.miqid-verified {
+  &:after {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background-image: url("/wp-content/uploads/2021/04/Asset-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    height: 32px;
+    width: 42px;
+  }
+
+  &.miqid-not-verified {
+    &:after {
+      display: none;
+    }
+  }
+}

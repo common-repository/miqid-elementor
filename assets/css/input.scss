@@ -1,0 +1,22 @@
+.elementor-widget-miqid_elementor_widget_input {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+    input {
+      flex: 1;
+    }
+
+    &.horizontal {
+      flex-direction: column;
+      align-items: start;
+      column-gap: normal;
+      row-gap: 5px;
+
+      label {
+        width: 100% !important;
+      }
+    }
+  }
+}

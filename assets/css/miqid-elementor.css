@@ -1,0 +1,32 @@
+.miqid-icon {
+  display: inline-flex;
+  align-content: center;
+}
+.miqid-icon:before {
+  content: "";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 28px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.miqid-icon.display_widget:before {
+  background-image: url("../images/display_widget.svg");
+}
+.miqid-icon.dynamic_images:before {
+  background-image: url("../images/dynamic_images.svg");
+}
+.miqid-icon.dynamic_text:before {
+  background-image: url("../images/dynamic_text.svg");
+}
+.miqid-icon.iconlist:before {
+  background-image: url("../images/iconlist.svg");
+}
+.miqid-icon.login:before {
+  background-image: url("../images/login.svg");
+}
+.miqid-icon.text_visibility:before {
+  background-image: url("../images/text_visibility.svg");
+}

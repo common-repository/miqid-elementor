@@ -1,0 +1,19 @@
+{
+  "name": "miqid/miqid-elementor",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "MIQID"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MIQID\\Plugin\\Elementor\\": "src"
+    }
+  }
+}
